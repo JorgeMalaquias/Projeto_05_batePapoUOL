@@ -49,20 +49,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .bottom-elements-container ion-icon{
     width: 26px;
     height: 26px;
 }
-.bottom-elements-container div{
+.bottom-elements-container label{
     width: fit-content;
     height: fit-content;
     text-align: start;
     font-weight: 400;
     font-size: 18px;
     font-style: italic;
+ 
 }
-
+.bottom-elements-container input{
+    border: none;
+    background-color: none;
+}
 
 .msg-container{
     overflow-y: scroll;
